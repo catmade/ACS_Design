@@ -8,11 +8,6 @@ import os
 import hashlib
 from bs4 import BeautifulSoup
 
-sys.path.extend(['C:\\Users\\Neo\\PycharmProjects\\test', 'C:/Users/Neo/PycharmProjects/test'])
-
-import ACS.DataProcess.PageRank
-import ACS.DataProcess.Text_Classification.Classify
-
 
 abs_dir = os.path.split(os.path.realpath(sys.argv[0]))[0]
 
@@ -276,9 +271,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    time.sleep(2)
-    os.system('cls')
-    ACS.DataProcess.PageRank.run()
-    time.sleep(2)
-    os.system('cls')
-    ACS.DataProcess.Text_Classification.Classify.run()
