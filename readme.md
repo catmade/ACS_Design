@@ -53,7 +53,7 @@
 
 ## 运行步骤
 
-### 安装、配置 ElasticSearch 并启动
+### 安装、配置ElasticSearch并启动
 - [下载](https://www.elastic.co/cn/downloads/elasticsearch) 并解压Elasticsearch，详细步骤自行搜索
     - 可以从 apt 和 yum 的软件仓库安装，也可以使用 Windows MSI 安装包安装
 - [安装](https://github.com/medcl/elasticsearch-analysis-ik/releases) IK 中文分词器，详细步骤自行搜索
